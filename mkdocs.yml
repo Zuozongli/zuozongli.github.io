@@ -1,0 +1,42 @@
+site_name: Zuo
+site_url: https://zuozongli.github.io
+plugins:
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+copyright: Copyright &copy; 2024 - Present Zongli Zuo
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: /
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
