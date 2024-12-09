@@ -1,6 +1,4 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# STQ你个恋爱脑
 
 ## Test
 
